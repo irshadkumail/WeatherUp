@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.sodo.kumail.weather360.StartActivity">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/weather_app_icon"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Enter your city"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="@android:color/white"
+        android:id="@+id/selected_city"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/selected_city"
+        android:layout_marginTop="15dp"
+        android:text="Lets Go!"
+        android:id="@+id/selected_city_button"
+        android:textColor="@android:color/black"
+        android:background="@drawable/my_button"
+        />
+
+</RelativeLayout>

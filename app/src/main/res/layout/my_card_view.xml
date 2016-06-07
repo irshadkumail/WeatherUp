@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+
+
+            app:cardElevation="5dp"
+            app:contentPadding="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wind"
+                    android:id="@+id/wind_heading"
+
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speed  :"
+                    android:layout_below="@id/wind_heading"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/wind_speed_heading"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/wind_speed_heading"
+                    android:layout_alignBaseline="@id/wind_speed_heading"
+                    android:text="1.5"
+                    android:id="@+id/wind_speed_value"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Degrees  :"
+                    android:layout_below="@id/wind_speed_heading"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/wind_deg_heading"
+                   />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/wind_deg_heading"
+                    android:layout_alignBaseline="@id/wind_deg_heading"
+                    android:text="1.5"
+                    android:id="@+id/wind_deg_value"
+                    android:layout_marginLeft="10dp"
+                   />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+
+
+            app:cardElevation="5dp"
+            app:contentPadding="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conditions"
+                android:id="@+id/conditions_heading"
+
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humidity  :"
+                android:layout_below="@id/conditions_heading"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/conditions_humidity_heading"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/conditions_humidity_heading"
+                android:layout_alignBaseline="@id/conditions_humidity_heading"
+                android:text="1.5"
+                android:id="@+id/conditions_humidity_value"
+                android:layout_marginLeft="10dp"
+              />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pressure  :"
+                android:layout_below="@id/conditions_humidity_heading"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/conditions_pressure_heading"
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/conditions_pressure_heading"
+                android:layout_alignBaseline="@id/conditions_pressure_heading"
+                android:text="1.5"
+                android:id="@+id/conditions_pressure_value"
+                android:layout_marginLeft="10dp"
+              />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </TableRow>
+
+    <TableRow>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+             >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+
+
+            app:cardElevation="5dp"
+            app:contentPadding="5dp"
+
+           >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunrise"
+                    android:id="@+id/sunrise_heading"
+
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9:00PM"
+                    android:layout_below="@id/sunrise_heading"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/sunrise_value"
+                    android:layout_marginLeft="8dp"
+
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    />
+
+
+
+                </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+
+
+            app:cardElevation="5dp"
+            app:contentPadding="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunrise"
+                    android:id="@+id/sunset_heading"
+
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9:00PM"
+                    android:id="@+id/sunset_value"
+                    android:layout_below="@id/sunset_heading"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+
+                    />
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </TableRow>
+
+</TableLayout>
